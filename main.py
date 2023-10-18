@@ -13,6 +13,7 @@ def even_list(int_list: List[int]) -> List[int]:
         A list of even integers.
     """
     # TODO: Implement even_list
+    return [_ for _ in int_list if not _ % 2]
 
 # Skeleton code for sum_of_squares_of_even
 
